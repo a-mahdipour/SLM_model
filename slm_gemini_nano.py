@@ -67,3 +67,27 @@ question = "What are the uses of Aspirin?"
 result = qa_pipeline(question=question, context=context)
 print(result)
 
+##### 4. Text Generation
+# Initialize pipeline
+generator = pipeline("text-generation", model="gemini-nano/gemini-nano")
+
+# Example prompt
+prompt = "The patient was diagnosed with"
+
+# Text Generation
+result = generator(prompt, max_length=50)
+print(result)
+
+##### 5. Summarization
+from transformers import pipeline
+
+# Initialize pipeline
+summarizer = pipeline("summarization", model="gemini-nano/gemini-nano")
+
+# Example long text
+long_text = "The patient has been under treatment for chronic pain and inflammation. The treatment included a combination of medication and physical therapy. Regular follow-ups were scheduled to monitor progress."
+
+# Summarization
+result = summarizer(long_text, max_length=50, min_length=25)
+print(result)
+
