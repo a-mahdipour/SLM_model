@@ -1,4 +1,4 @@
-# What are Small Language Models (#slms)?
+# What are Small Language Models (SLMs)?
 
 
 Language Models (LMs) are foundation models that combine NLP techniques and AI models to generate a meaningful connection between machines and humans. They are designed to understand, generate and predict human language and usually trained against vast amount of texts data to absorb statistical features (sequence of words, grammar, concept) of language to generate contextually relevant outputs at human level. There are a variety of language models in an spectrum from simple N-gram models (for predicting next word in a sequence) to complex transformers (for understanding patterns and dependencies through self-attention mechanism).
