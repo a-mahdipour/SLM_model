@@ -1,5 +1,5 @@
 """
-LLaMA 3.1 7B in medical science
+Gemini Nano in medical science
 """
 
 # pip install transformers torch
