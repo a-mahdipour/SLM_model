@@ -15,7 +15,7 @@ SLMs are type of language models that
 
 * (d) can perform well on specific tasks; but generally have lower performance on complex language understanding/generation in comparison to LLMs.
 
-* (e) have lower risk of algorithmic bias (due to training on not sufficiently diverse data set) and hallucination, ....
+* (e) have higher risk of algorithmic bias (due to training on not sufficiently diverse data set) and hallucination, ....
 
 
 SLMs are mostly used when computational resources are limited, for instance in mobile devices, embedded systems, or wherever quick responses are needed. A list of SLMs with some important features of each is avaialble in the enclosed picture (pic ref: table is adopted from [https://lnkd.in/gwBvjzm5])
